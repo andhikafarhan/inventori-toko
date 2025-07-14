@@ -1,0 +1,25 @@
+Pengujian & Evaluasi Aplikasi Inventori Toko
+
+1. Pengujian Fitur Program
+Fitur	Input	Hasil yang Diharapkan	Status
+Tambah Barang	Kode: BRG01, Nama: Pulpen, Stok: 50	Barang ditambahkan	✅
+Lihat Semua	—	Tampilkan semua barang	✅
+Cari Barang	Kata: “Pulpen”	Barang ditemukan	✅
+Update Stok	Kode: BRG01, Stok baru: 100	Stok diperbarui	✅
+Hapus Barang	Kode: BRG01	Barang dihapus	✅
+Input salah	Stok: “lima”	Pesan error muncul	✅
+
+2. Evaluasi Penggunaan
+Menu mudah dimengerti oleh pengguna awam
+Input validasi mencegah error
+Tidak ada crash selama penggunaan
+Perulangan menu memudahkan pengguna untuk melakukan banyak aksi sekaligus
+
+3. Evaluasi Performa
+Cepat dan ringan, bahkan setelah menambahkan banyak data
+Tidak ada lag
+Tidak menggunakan penyimpanan file → sangat sederhana dan efisien
+
+4. Kesimpulan
+Aplikasi ini berjalan dengan baik dan memenuhi seluruh fungsi yang dibutuhkan untuk pengelolaan inventori toko.
+Program cocok untuk pemula dan dapat dijadikan dasar pengembangan ke versi GUI atau yang menggunakan penyimpanan file.
